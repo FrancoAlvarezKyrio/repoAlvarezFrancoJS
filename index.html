@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---Head-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------- SEO y Posicionamiento -----------> 
+    <meta name="description=" content="La pagina oficial de UFC te muestra los mejores peleadores y eventos, podes comprar los productos que quieras y acceder a los mejores lugares para ver el campeonato">
+    <meta name="keywords"  content="UFC, TIENDA, EQUIPO DEPORTIVO, ENTRADAS, EVENTOS, LUCHADORES, VIDEOS, KO">
+    <!----------- Links -----------> 
+    <script src="https://kit.fontawesome.com/e8d7df97d3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? familia=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">     
+    <!----------- JQuery -----------> 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>UFC Official Site</title>
+</head>
+<!---Body-->
+<body>
+<!----------- Header ----------->  
+<header class="container-fluid position-sticky bg-light top-0 ">
+  <div class="container-fluid">
+  <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+        <a href="index.html"> <img class="imagenLogo" src="ImagenesUFC/tiendaUFC/ufcLogo.svg" alt=""> </a>
+      <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
+      </li>
+      <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Tienda</a>
+      </li>
+      <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+      </li>
+      <li class="nav-item" role="presentation">
+          <button class=" nav-link" id="pills-contact2-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact2" aria-selected="false">Contacto  </button> 
+      </li>
+  </ul> 
+</div>
+</header>
+<!---------------////////////// PRIMER BOTÓN "INICIO" //////////////------------->
+<div class="tab-content" id="pills-tabContent">
+<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+<section class="header">
+  <div class="cajaDeTexto">    
+    <h1 class="h1Banner"> <img class="imagenLogo2" src="ImagenesUFC/tiendaUFC/ufcLogo.svg" alt="">
+    <span class="tituloBanner"></span>
+    </h1>
+  </div>    
+</section>
+<!----------- Eventos ----------->     
+<section class="seccionEventos">
+  <h1 class="primerTitulo">MEJORES EVENTOS DEL 2021</h1>
+     <p class="parrafos">Reviví lo mejor de nuestros últimos eventos de la mano de UFC replay. </p>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="ImagenesUFC/ufc259.jpg" class="imagenCarousel d-block h-100 w-100" alt="...">
+  <div class="carousel-caption d-none d-md-block">                
+</div>
+</div>
+<div class="carousel-item">
+  <img src="ImagenesUFC/ufc260X.jpg" class=" imagenCarousel d-block h-100 w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block">
+</div>
+</div>
+<div class="carousel-item">
+  <img src="ImagenesUFC/ufc261.jpg" class=" imagenCarousel d-block h-100 w-100" alt="...">
+    <div class="carousel-caption d-none d-md-block"> 
+</div>
+</div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>                 
+</section>
+<!-------------------- Tabla de próximos eventos ------------------>
+<div class="container">
+  <div class="container-fluid">
+  <button id="botonEventos">PRÓXIMOS EVENTOS</button>
+
+
+  <table class="table">
+    <thead class="fondoTable">
+      <tr>
+        <th scope="col">Nº DE EVENTO</th>
+        <th scope="col">FECHA DE EVENTO</th>
+        <th scope="col">UBICACIÓN</th>
+        <th scope="col">PRECIO DE ENTRADA</th>
+        <th scope="col">PELEA ESTELAR</th>
+      </tr>
+    </thead>
+
+    <tbody id="datosTabla">  </tbody>
+  </table>
+</div>
+
+</div>
+<!----------- Luchadores ----------->        
+<section class="seccionLuchadores">
+  <h1 class="h1Campeones"> CAMPEONES DE <span class="spanRojo">UFC</span></h1>
+        
+<div class="row">
+  <div class="columnaLuchadores">
+    <img src="ImagenesUFC/imagenesKhabib/khabib.png" alt="">
+  <div class="layerRojo">
+    <a href="khabibIndex.html"><h3>CLICK AQUÍ</h3> </a>
+  </div>
+</div>
+
+<div class="columnaLuchadores">
+  <img src="ImagenesUFC/imagenesJustin/justG.jpg_large" alt="">
+<div class="layerRojo">
+  <a href="justinIndex.html"><h3>CLICK AQUÍ</h3> </a>
+</div>
+</div>
+
+<div class="columnaLuchadores">
+  <img src="ImagenesUFC/imagenesStPierre/stPier.jpg" alt="">
+<div class="layerRojo">
+  <a href="stpierreIndex.html"><h3>CLICK AQUÍ</h3> </a>  
+</div>
+</div>
+
+<div class="columnaLuchadores">
+  <img src="ImagenesUFC/imagenesSilva/spiderSilva.jpg" alt="">
+<div class="layerRojo">
+  <a href="silvaIndex.html"><h3>CLICK AQUÍ</h3> </a>
+</div>
+</div>
+
+<div class="columnaLuchadores">
+  <img src="ImagenesUFC/imagenesDustin/dPoi.jpg" alt="">
+<div class="layerRojo">
+  <a href="poirierIndex.html"><h3>CLICK AQUÍ</h3> </a>
+</div>
+</div>
+
+<div class="columnaLuchadores">
+  <img src="ImagenesUFC/imagenesMcGregor/mcGregor.jpg" alt="">
+<div class="layerRojo">
+  <a href="mcGregorIndex.html"><h3>CLICK AQUÍ</h3> </a>
+</div>
+</div>
+</div>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img class="imagenCampeones" src="ImagenesUFC/champions.jpg" class="d-block w-100" alt="...">
+   </div>
+
+<div class="carousel-item">
+  <img class="imagenCampeones" src="ImagenesUFC/champions2.jpg" class="d-block w-100" alt="...">
+</div>
+
+<div class="carousel-item">
+  <img class="imagenCampeones" src="ImagenesUFC/champions3.jpg" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</section>  
+</div>         
+<!---------------////////////// SEGUNDO BOTÓN "TIENDA" //////////////----------->
+<div class="tab-pane fade container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  <h1 class="tituloProductos">TIENDA OFICIAL DE <span class="spanRojo">UFC</span> </h1>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+ <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+ <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+ <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="carouselTienda" src="ImagenesUFC/tiendaUFC/ufcStore.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img class="carouselTienda" src="ImagenesUFC/tiendaUFC/ufcStore2.jpg" class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+<img class="carouselTienda" src="ImagenesUFC/tiendaUFC/ufcStore3.jpg" class="d-block w-100" alt="...">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+   </div>
+<!-- Botones de las categorías de la tienda -->
+<section id="seccionFiltrosTienda">
+<!-- Los botones no estan funcionando por el momento -->
+<div class="contenedorFiltros">
+  <div id="filtroCategorias">
+<button value="Todo" class="categoriaProducto" >Todo</button>
+<button value="Guantes" class="categoriaProducto" >Guantes</button>
+<button value="Vendas" class="categoriaProducto" >Vendas</button>
+<button value="Pantalones" class="categoriaProducto" >Pantalones</button>
+<button value="Remeras" class="categoriaProducto" >Remeras</button>
+<button value="Termicas" class="categoriaProducto" >Térmicas</button>
+<button value="Buzos"  class="categoriaProducto">Buzos</button>
+<button value="Camperas" class="categoriaProducto" >Camperas</button>
+<button value="Gorras" class="categoriaProducto" >Gorras</button>
+<button value="Zapatillas" class="categoriaProducto" >Zapatillas</button>
+<button value="Bolsos" class="categoriaProducto" >Bolsos</button>
+</div>
+</div>
+<!-- Contenedor donde se pintan los productos -->
+<div class="row" id="cards"> </div>
+</section>
+<!-- Productos de la tienda -->
+<template id="templateCard">
+<div class=" divProducto col-12 mb-2 col-md-2">
+<div class="card" id="cardProducto">
+ <div class="cardBody">
+   <h3 id="tituloProducto">Titulo</h3>
+   <img id="imagenProducto" src="" alt="" class="card-img-top">  
+   <p id="tallesColoresProducto">Talles y colores</p>
+   <p id="palabraPrecioProducto" class="color"> $ </p>
+   <h5 id="precioProducto">Precio</h5>
+   <button id="botonProducto" class="btn btn-dark">Comprar</button>
+ </div>
+</div>
+</div>  
+</template>
+</div>   
+<!---------------////////////// TERCER BOTÓN "CARRITO" //////////////------------->
+<div class="tab-pane fade carrito " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+  <h1 class="tituloProductos">TIENDA OFICIAL DE <span class="spanRojo">UFC</span> </h1>
+<!-- Tabla de carrito -->
+<div class="container-fluid">
+<table class="table col-12 mb-2 col-md-4" id="tablaCarrito">
+  <thead>
+    <tr>
+      <th class="letraCarrito" scope="col">ID</th>
+      <th class="letraCarrito" scope="col">Producto</th>
+      <th class="letraCarrito" scope="col">Cantidad</th>
+      <th class="letraCarrito" scope="col">Valor</th>
+      <th class="letraCarrito" scope="col">Acción</th>
+    </tr>
+  </thead>
+
+<tbody id="items"> </tbody>
+
+<tFoot>
+  <tr id="footerCarrito"  class="table">
+    <th scope="row" colspan="5">Carrito vacío - Puede comenzar a comprar !</th>
+  </tr>
+</tFoot> 
+</table>
+<!-- Template de carrito y su footer -->
+<template id="templateCarrito">
+  <tr id="templateTablaCarrito">
+  <th scope="row">Id</th>
+    <td>Cafe</td>
+    <td>1</td>
+    <td class="font-weight-bold"> $ <span>5000</span> </td>
+    <td>
+      <button class="btn btn-info btn-sm" id="botonSumar"> + </button>  
+      <button class="btn btn-danger btn-sm" id="botonRestar"> - </button>
+    </td>
+  </tr>
+</template>
+<template id="templateFooter"  class="table col-12 mb-2 col-md-4">
+  <th id="letrasFooterCarrito" scope="row" colspan="2">Productos seleccionados </th>
+    <td id="numerosFooterCarrito"> 10 </td>
+    <td id="numeros2FooterCarrito" class="font-weight-bold">Total $ <span>5000</span> </td>
+    <td><button class="btn btn-danger btn-sm" id="vaciar-carrito">COMPRAR</button> </td>    
+</template>
+</div>
+</div>
+<!---------------////////////// CUARTO BOTÓN "CONTACTO" //////////////------------->
+<div class="divContactoFormulario tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact2-tab"> 
+  <div class="contacto">
+      <div class="contenedorTituloForm">
+          <h1 class="tituloFormulario">Formulario<img class="imagenLogoForm" src="ImagenesUFC/tiendaUFC/ufcLogo.svg" alt=""></h1></div>  
+
+<div class="contactoWrapper">   
+<div class="contactoFormulario">  
+  <h3 class="subTituloForm">Contacto</h3><br>
+
+<!-- Formulario -->
+<form id="formulario" action="">  
+<div class="block container-fluid">
+  <label class="label" id="titulo1" for="nombreForm">Nombre</label>
+    <input type="text" name="nombre" id="nombreForm" placeholder="Escriba su nombre completo">        
+</div>  
+<div class="block">
+  <label class="label" id="titulo2" for="mailForm">E- mail</label>
+    <input type="email" name="email" id="mailForm" placeholder="Escriba su correo electrónico">        
+</div>  
+<div>
+  <div class="block">
+    <label class="label" id="titulo3" for="mensajeForm">Mensaje</label>
+      <textarea name="mensaje" rows="3" id="mensajeForm" placeholder="Escriba su mensaje"></textarea>
+</div>  
+<div class="block">
+  <button type="submit" id="botonEnviar" value="Enviar datos" class="botonForm">Enviar formulario</button>
+</div>
+</div>
+</form>
+<!-- Respuesta automática de formulario -->
+<div id="resultadoFormulario"></div>
+</div>  
+<div class="contactoInfo">
+  <h4>Mas información</h4>
+        <ul>
+        <li><i class="fas fa-map-marker-alt"></i>Avenida Massachusetts (Washington D. C.)</li>
+        <li><i class="fas fa-mobile-alt"></i>(+54) 011 2306 4870</li>
+        <li><i class="fas fa-envelope-open-text"></i>(24/7) contactufc@ufc21.com</li>
+      </ul>
+<p>
+      La Ultimate Fighting Championship (UFC) es la mayor empresa de artes marciales mixtas en el mundo,
+     que alberga la mayor parte de los mejores peleadores del ranking en el deporte​ y produce eventos por todo el mundo.
+      Dana White es el presidente de la UFC, mientras que William Morris Endeavor es la propietaria de la empresa.
+      El primer evento de UFC se llevó a cabo en 1993 en Denver, Colorado.
+      El propósito del evento fue identificar el arte marcial más efectivo en una pelea real entre competidores de diferentes disciplinas de combate, 
+     incluyendo el boxeo, jiu-jitsu brasileño, sambo, lucha, muay thai, Taekwondo, karate, judo y otros estilos.                    
+<div class="imagenesForm">
+        <a href="#"> <i class=" iconosForm fab fa-instagram"></i></a>
+        <a href="#"> <i class=" iconosForm fab fa-facebook-square"></i></a>
+        <a href="#"><i class=" iconosForm fab fa-twitter"></i></a>                   
+</div>
+</p>
+<p>UFC Championship 2021</p>
+</div>
+</div>
+</div>
+</form>
+<div class="mapa" style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div> 
+</div>      
+<!-- Footer -->
+<div class="container-fluid">
+<footer class="footer">
+  <div class="container1">
+    <div class="rowFooter">
+<div class="colFooter">
+  <h4>Empresa</h4>
+    <ul>
+      <li><a href="#">A cerca de nosotros</a></li>
+      <li><a href="#">Nuestros servicios</a></li>
+      <li><a href="#">Política privada</a></li>
+      <li><a href="#">Programa afiliado</a></li>
+    </ul>
+</div>
+<div class="colFooter">
+  <h4>Ayuda</h4>
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Sucursales</a></li>
+      <li><a href="#">C.U.I.T</a></li>
+      <li><a href="#">Opciones de pago</a></li>
+      <li><a href="#">Preguntas frecuentes</a></li>
+    </ul>
+</div>
+<div class="colFooter">
+  <h4>Tienda </h4>
+    <ul>
+      <li><a href="#">Remeras</a></li>
+      <li><a href="#">Pantalones</a></li>
+      <li><a href="#">Buzos</a></li>
+      <li><a href="#">Guantes</a></li>
+    </ul>
+</div>
+<div class="colFooter">
+  <h4>Seguinos</h4>
+    <div class="">
+      <a href="#"> <i class=" iconosFooter fab fa-instagram"></i></a>
+      <a href="#"> <i class=" iconosFooter fab fa-facebook-square"></i></a>
+      <a href="#"><i class=" iconosFooter fab fa-twitter"></i></a>
+    </div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="javaScript/tienda.js"></script>
+<script src="javaScript/formulario.js"></script>
+<script src="javaScript/constYevents.js"></script>
+<script src="javaScript/ajax.js"></script>
+</body>
+</html>

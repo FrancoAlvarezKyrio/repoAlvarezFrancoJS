@@ -1,0 +1,1225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* -------- Header --------- */
+header, .alert {
+    z-index: 100;    
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7), rgba(249, 17, 17, 0.407)),url(imagenesCSS/portada2.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+
+
+/* ----------------------- Primer Seccion ------------------- */
+/* ---------- Nav ---------- */
+nav{
+    width: 100%;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link:hover{
+    color: #d81717 !important;
+    
+
+}
+.nav-link{
+    color: black !important;
+    background-color: whitesmoke!important ;
+    font-family:  'Quicksand', sans-serif !important;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.nav-item {
+    margin-left: 5px;
+}
+.imagenLogo{
+    width: 100px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.imagenLogo2{
+    width: 200px;
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 500px;
+}
+
+/* ----- Caroussel e imagenes extra ----- */
+.imgChampions{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.imagenCampeones {
+    width: 100%;
+    height: 600px;
+}
+.imagenUfcStore{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.imagenCarousel {
+    height: 800px;
+}
+.carousel-item{
+    width: 100%;
+}
+.carouselExampleCaptions {
+    width: 100%;
+}
+.contactoYlogo {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------ Eventos ---------- */
+.seccionEventos{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.tituloProductos {
+    font-size: 70px;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    font-weight: 1000;
+    color: #101010;
+    width: 100%;
+    text-align: center;  
+}
+.primerTitulo{
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    font-weight: 1000;
+    color: #101010;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);     
+}
+.h1Campeones{
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    font-weight: 1000;
+    color: #101010;
+    width: 100%;
+    text-align: center; 
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+    margin-bottom: 75px;
+}
+.h1KO{
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    font-weight: 1000;
+    color: #101010;
+    width: 100%;
+    text-align: center; 
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+p{
+    color: rgb(99, 97, 97);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;  
+}
+.columnaEventos{
+    flex-basis: 31%;
+    background: #f1e8e8;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.9s;
+    height: 550px;
+    border-radius: 10px;    
+}
+.columnaEventos:hover{
+    background-color: black;
+    color: #d81717;
+    transform: scale(1.2,1.2);
+}
+.imagenEventos {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.table {
+    font-size: 16px; 
+    background-color: rgb(206, 20, 20);
+    color: white !important;
+}
+#botonEventos {
+    color: #fff;
+    background-color: rgb(1, 1, 1);
+    font-family:'Cinzel', serif;
+    font-size: 40px;
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0);
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+#botonEventos:hover {
+    background-color: rgb(184, 10, 10);
+    color: #fff;
+    font-size: 45px;
+}
+
+/* -------- Luchadores ------------ */
+.seccionLuchadores{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.columnaLuchadores {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;    
+}
+.columnaLuchadores img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 30px 20px 5px rgba(0, 0, 0);
+}
+
+
+/* -------- Layer ------------ */
+.layerRojo{
+    background:transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layerRojo:hover{
+    background:rgba(201, 20, 20, 0.7) ;    
+}
+.layerRojo h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.9s;
+}
+.layerRojo:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+/* ----------------------- Card ------------------- */
+.contenedorProductoTienda{
+    display: flex;
+    flex-direction: wrap;
+    border: transparent !important;
+}
+.card {
+    transition: all .4s;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0);
+}
+.card-title {
+    background-color: rgb(72, 196, 99) !important;
+    color: #fff8f8!important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 600 !important;
+    padding: 5px;
+}
+.card-img-top {
+    width: 100px !important;
+    height: 100px !important;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.precio{
+    color: rgb(47, 194, 47);
+    font-family: 'Cinzel', serif;
+}
+
+
+/* ------------------------ Buttons ----------------- */
+.button {
+    background-color: rgb(11, 131, 37) !important;
+    border-color: transparent !important;
+}
+.button:hover{
+    background-color:rgb(64, 196, 93) !important ;
+    border-color: transparent;
+    transition: 1000ms;
+}
+.botonComprar {
+    background-color: rgb(44, 172, 72) !important;
+    border-color:transparent;
+    border-radius: 10px;
+    color: white !important;
+    margin-left: 400px;  
+    margin-bottom: 50px;  
+}
+.botonComprar:hover{
+    color: white;
+    background-color: rgb(129, 228, 151) !important;
+}
+.botonVolver:hover {
+    color: rgb(206, 20, 20) !important;
+    font-weight: bold;
+}
+.contenedorBotonesTienda{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100px;
+    box-shadow: 0px 0px 1px 1px rgb(11, 131, 37) !important;
+    border-radius: 10px;
+}
+#botonEnviar {
+    background: red;
+    border: solid 0;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0%;
+    }
+#botonEnviar:hover {
+        background: rgb(189, 20, 20);
+        border: solid 0;
+        color: #fff;
+        padding: 10px;
+}
+.categoriaProducto {
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 35px;
+    border: transparent;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 1px rgb(11, 131, 37) !important;;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600 !important;
+    color: rgb(64, 196, 93) !important ;
+}
+.categoriaProducto:hover {
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 35px;
+    border: transparent;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 1px rgb(25, 232, 25);
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700 !important;
+    background:rgb(64, 196, 93) !important ;
+    color: rgb(255, 255, 255) !important;
+}
+
+#filtroCategorias{
+    margin-bottom: 25px;
+}
+
+
+/* ----------- Parrafos , palabras ------- */
+.parrafos {
+    text-align: center;
+    color: rgb(179, 175, 175);
+    font-family:'Cinzel', serif;
+}
+.palabraUfc {
+    color: red;
+}
+.spanRojo {
+    color: red;
+    font-family:'Cinzel', serif; 
+    font-weight: bold;
+}
+
+/* ------ Videos ------ */
+.videosKO {
+    display: flex;
+    flex-wrap: nowrap;    
+}
+.video {
+    padding: 5px;
+    width: 33%;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+}
+
+
+/* ---------- Carrito  ---------- */
+
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+.description:hover{
+    height: 80px;
+}
+.carrito {
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.carritoLogo{
+    width: 18px;
+    height: 15px;  
+}
+.title {
+    color: rgb(0, 0, 0) !important ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.table__productos{
+    display: flex;
+}
+.table__productos> img {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.table__cantidad > input {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: rgb(19, 187, 19);
+    margin-top: 30px;
+}
+.preciosVerdes {
+    color: rgb(19, 187, 19) !important;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.hide, .remove {
+    display: none;
+}
+.carritoTienda{
+    width: 18px;
+    height: 13px;
+    margin-left: 10px;
+}
+.agradecimiento {
+    margin-left: 250px;
+    margin-top: 100px;
+    display: none;
+    width: 500px;
+    height: 150px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0);
+    background-color: rgb(199, 20, 20) !important;
+    border-radius: 10px;
+    color: #fff;
+}
+.agradecimientoDos {
+    font-size: 30px;
+    font-family:'Cinzel', serif;
+    color: rgb(255, 255, 255);
+}
+.agradecimientoTres {
+    font-size: 30px;
+    font-family:'Cinzel', serif;
+    color: rgb(0, 0, 0);
+}
+
+
+/* ----------- Formulario --------- */
+.label {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.spanForm {
+    color: red;
+    font-style: italic;
+    font-family:'Cinzel', serif;
+}
+.contacto {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.contenedorTituloForm{
+    display: flex;
+    flex-direction: row;
+}
+.tituloFormulario {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 0%;
+    font-size: 80px;
+}
+.subTituloForm {
+    font-family:'Cinzel', serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 2em;
+    margin-right: 565px;
+}
+.imagenLogoForm {
+    width: 210px;
+    height: 50px;
+}
+.imagenLogoForm2 {
+    width: 400px;
+    height: 150px;
+}
+.carouselTienda {
+    width: 100%;
+    height: 600px;
+}
+
+
+.contactoWrapper {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.contactoFormulario {
+    background: rgb(255, 255, 255)
+}
+.contactoFormulario form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contactoFormulario form .block {
+    grid-column: 1 / 3;
+}
+.contactoFormulario form p {
+    margin: 0;
+}
+.contactoFormulario form button,
+.contactoFormulario form input,
+.contactoFormulario form textarea{
+   width: 700px;
+   padding: .3em;
+   border: none;
+   background: none;
+   outline: 0;
+   border-bottom: 1px solid #b70e21;
+}
+.contactoFormulario form textarea{
+   height: 300px;
+}
+
+.contactoFormulario form button{
+    background: #b70e0e;
+    border: 0;
+    text-transform: uppercase;
+}
+.contactoFormulario form button:hover,
+.contactoFormulario form button:hover{
+    background: #c72014;
+    color: white;
+    transition: background-color 1s ease-out;
+}
+.contactoInfo {
+    background: black;
+}
+.contactoInfo h4,
+.contactoInfo ul,
+.contactoInfo p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: white;
+}
+.contactoInfo h4{
+    margin-top: 50px;
+}
+.contactoInfo ul{
+    list-style: none;
+    padding: 0; 
+}
+.contactoInfo ul li {
+    padding: 0.5em;
+    text-align: center;
+}
+.imagenesForm {
+    display: flex;
+    flex-direction: row;
+}
+
+#nombreForm {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#mailForm {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 14px;
+}
+
+#mensajeForm {
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+#titulo2{
+    margin-left: 14px;
+}
+#titulo3{
+    margin-left: 14px;
+}
+
+
+/* --------- Footer ------- */
+.footer {
+    background: #24262b;
+    padding: 70px 0;
+    margin-top: 100px;
+   
+}
+.footer ul {
+    list-style: none;  
+}
+.container1 {
+    max-width: 100%;
+    margin: auto;
+}
+.rowFooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+.colFooter {
+    width: 25%;
+    padding: 0 15px;
+}
+.colFooter h4 {
+   font-size: 18px;
+   color: rgb(255, 255, 255);
+   text-transform: capitalize;
+   margin-bottom: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   position: relative;
+   margin-left: 35px;
+}
+.colFooter h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #dd0c0c;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+}
+.colFooter ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.colFooter ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.colFooter ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
+    color: red;
+}
+.iconosFooter {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 90%;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding: 13px;
+    margin-left: 25px;
+}
+.iconosFooter:hover {
+    color: red;
+    padding-left: 8px;
+}
+.iconosForm {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 90%;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.mapa {
+
+    margin-top: 50px;
+}
+
+
+/* PRODUCTO */
+
+#tituloProducto {
+    color: rgb(255, 255, 255);
+    background: rgb(11, 163, 16);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px !important;
+    padding: 5px;
+}
+
+#imagenProducto {
+    width: 120px !important;
+    height: 112px !important;
+    margin-left: 30px;
+}
+
+#cardProducto {
+    width: 180px;
+    border-radius: 5px !important;
+    box-shadow: 1 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 5px;
+}
+
+#cardProducto:hover {
+    border-radius: 5px !important;
+    transform: scale(1.1);
+    margin-bottom: 15px;
+    margin-top: 25px;
+    box-shadow: 0 0 0 0px rgba(0,0,0,0.3);
+}
+
+#botonProducto{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgb(11, 163, 16);
+    border-color: transparent;
+}
+
+#botonProducto:hover{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgb(71, 223, 76);
+    border-color: transparent;
+}
+
+#precioProducto {
+    color:rgb(11, 163, 16) ;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+#palabraPrecioProducto {
+    color:rgb(11, 163, 16) !important ;
+    text-align: center;
+    margin-bottom: 0% !important;
+    font-size: 10px !important;
+}
+
+#tallesColoresProducto {
+    font-size: 13px !important;
+    margin-bottom: 0%;
+}
+
+#templateTablaCarrito{
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+#tablaCarrito {
+    background: rgba(153, 212, 243, 0.255);
+    border-color: red !important;
+    margin-top: 50px;
+    border-radius:40px !important;
+}
+
+.letraCarrito {
+    font-family: 'Quicksand', sans-serif !important;
+    color: black;
+    font-size: 19px;
+    border-color: rgb(252, 252, 252);
+    border-width: 1px;
+    text-align: center;
+
+}
+
+#items{
+    background: rgba(130, 206, 247, 0.685);
+    color: rgb(255, 252, 252);
+    font-family: 'Quicksand', sans-serif !important;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px !important;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#footerCarrito {
+    background: rgba(119, 219, 230, 0.199);
+    color: rgba(0, 0, 0, 0.665) !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 21px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    text-align: center;
+    border-radius: 50px !important;
+}
+
+#letrasFooterCarrito {
+color:rgb(0, 0, 0) ;
+font-family: 'Quicksand', sans-serif !important;
+font-weight: bold;
+}
+
+#numerosFooterCarrito {
+color:rgb(0, 0, 0) ;
+font-family: 'Quicksand', sans-serif !important;
+font-weight: bold;
+}
+ 
+#numeros2FooterCarrito {
+color:rgb(0, 0, 0) ;
+font-family: 'Quicksand', sans-serif !important;
+font-weight: bold;
+}
+
+#numeros2FooterCarrito:hover{
+    color: rgb(0, 255, 8);
+    transform: scale(1.2);
+}
+        
+
+
+#vaciar-carrito{
+    background:rgb(11, 163, 16) ;
+    border-color: transparent;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+#vaciar-carrito:hover{
+    background:rgb(114, 221, 118) ;
+    border-color: transparent;
+}
+
+#botonSumar {
+    background: rgb(11, 163, 16);
+    border-color: transparent;
+    margin-left: 5px;
+    color: white;
+}
+#botonSumar:hover {
+    background: rgb(104, 214, 107);
+    border-color: transparent;
+    margin-left: 5px;
+    color: white;
+}
+
+
+#botonRestar {
+    background: rgb(194, 17, 17);
+    margin-left: 5px;
+    width: 25px;
+}
+#botonRestar:hover {
+    background: rgb(146, 12, 12);
+    margin-left: 5px;
+    width: 25px;
+}
+
+
+@media screen and (max-width:376px){
+
+    nav{
+        width: 100%;
+    }
+
+    .nav-link{
+        color: rgb(0, 0, 0) !important;
+        background-color: whitesmoke!important ;
+        font-family:  'Quicksand', sans-serif !important;
+        font-size: 13px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .imagenLogo{
+        width:350px;
+    }
+    .header {
+        width: 360px;
+        background-image:linear-gradient(rgba(4,9,30,0.7), rgba(249, 17, 17, 0.407)),url(imagenesCSS/portada2.jpg);
+        background-position: center;
+        background-size: cover;
+        position:relative;
+        margin-left: 6px;
+    }
+    .primerTitulo{
+        font-family: 'Cinzel', serif;
+        font-size: 23px;
+        font-weight: 1500;
+        color: #101010;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);     
+    }
+    .fondoTable{
+        background-color: gray;
+        font-size: 10px;
+    }
+
+    #datosTabla{
+        background-color: gray;
+        font-size: 10px;
+        width: 340px;
+    }
+    #datosTabla:hover{
+        background-color: gray;
+        font-size: 10px;
+        transform: scale(1.2);
+    }
+    #botonEventos{
+        font-size: 30px;
+        width: 340px;
+        background-color: black;
+    }
+    #botonEventos:hover{
+        font-size: 30px;
+        width: 340px;
+        background-color: black;
+    }
+    .h1Campeones{
+        font-family: 'Cinzel', serif;
+        font-size: 25px;
+        font-weight: 1000;
+        color: #101010;
+        width: 100%;
+        text-align: center; 
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+        margin-bottom: 25px;
+    }
+    .columnaLuchadores img {
+        width: 80px;
+        height: 150px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);
+    }
+    .footer {
+        background: #24262b;
+        padding: 0%;    
+        margin-top: 10px; 
+  
+    }
+    .footer ul {
+        list-style: none;  
+    }
+    .container1 {
+        max-width: 100%;
+    }
+    .rowFooter {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 45px;
+    }
+    .colFooter {
+        width: 25%;
+        padding: 0px;
+    }
+    .colFooter h4 {
+       font-size: 16px;
+       color: rgb(255, 255, 255);
+       text-transform: capitalize;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 500;
+       position: relative;
+       margin-top: 20px;
+
+    }
+    .colFooter h4::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #dd0c0c;
+        height: 1px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .colFooter ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .colFooter ul li a {
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #bbb;
+        text-decoration: none;
+        font-weight: 300;
+        display: block;
+        transition: all 0.3s ease;
+        margin-left: 5px;
+    }
+    .colFooter ul li a:hover{
+        color: #fff;
+        padding-left: 8px;
+        color: red;
+    }
+    .iconosFooter{
+        margin-left: 50px;
+    }
+    #cardProducto{
+        width: 350px;
+    }
+    #cardProducto:hover{
+        transform: none;
+    }     
+    #imagenProducto {
+        width: 290px !important;
+        height: 250px !important;
+        margin-left: 25px;
+    }
+    #botonProducto{
+        font-size: 30px;
+    }
+    #tituloProducto{
+        font-size: 20px;
+        margin-bottom: 0%;
+    }
+    #tallesColoresProducto{
+        color: rgb(0, 0, 0);
+        font-size: 15px !important;
+    }
+    #precioProducto{
+        color: rgb(84, 184, 38);
+        font-size: 40px !important;
+    }
+    #palabraPrecioProducto{
+        color: rgb(0, 0, 0);
+        font-size: 20px !important;
+    }
+
+    .letraCarrito{
+        font-size: 15px;
+        padding: 0%;
+        text-align: left;
+        width: 1px;
+    }
+    #tablaCarrito{
+        padding: 0%;
+    }
+    #templateTablaCarrito{
+        font-size: 15px;
+        text-align: left;
+    }
+    #letrasFooterCarrito{
+        font-size: 15px;
+    }
+    #numerosFooterCarrito{
+        font-size: 15px;
+    }
+    #numeros2FooterCarrito{
+        font-size: 15px !important;
+    }
+    #vaciar-carrito{
+        height: 30px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .label {
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+        font-weight: bold;
+        padding: 0%;
+    }
+    .spanForm {
+        color: red;
+        font-style: italic;
+        font-family:'Cinzel', serif;
+    }
+    .contacto {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
+    }
+    .contenedorTituloForm{
+        display: flex;
+        flex-direction: row;
+    }
+    .tituloFormulario {
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 30px;
+        margin-top: 0%;
+        font-size: 50px;
+    }
+    .subTituloForm {
+        font-family:'Cinzel', serif;
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+        font-size: 1.7em;
+    }
+    .imagenLogoForm {
+        width: 210px;
+        height: 50px;
+    }
+    .iconosForm{
+        margin-left: 45px;
+    }
+    .imagenLogoForm2 {
+        width: 400px;
+        height: 150px;
+    }
+    .contactoWrapper {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+    .contactoFormulario {
+        background: rgb(255, 255, 255)
+    }
+    .contactoFormulario form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactoFormulario form .block {
+        grid-column: 1 / 3;
+    }
+    .contactoFormulario form p {
+        margin: 0;
+    }
+    .contactoFormulario form button,
+    .contactoFormulario form input,
+    .contactoFormulario form textarea{
+       width: 280px;
+       padding: 0%;
+       border: none;
+       background: none;
+       outline: 0;
+       border-bottom: 1px solid #b70e21;
+    }
+    .contactoFormulario form textarea{
+       height: 300px;
+    }
+    
+    .contactoFormulario form button{
+        background: #b70e0e;
+        border: 0;
+        text-transform: uppercase;
+    }
+    .contactoFormulario form button:hover,
+    .contactoFormulario form button:hover{
+        background: #c72014;
+        color: white;
+        transition: background-color 1s ease-out;
+    }
+    .contactoInfo {
+        background: black;
+    }
+    .contactoInfo h4,
+    .contactoInfo ul,
+    .contactoInfo p {
+        text-align: center;
+        margin: 0 0 1rem 0;
+        color: white;
+    }
+    .contactoInfo h4{
+        margin-top: 50px;
+    }
+    .contactoInfo ul{
+        list-style: none;
+        padding: 0; 
+    }
+    .contactoInfo ul li {
+        padding: 0.5em;
+        text-align: center;
+    }
+    .imagenesForm {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #nombreForm {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    #mailForm {
+        margin-top: 10px;
+        margin-bottom: 50px;  
+        margin-left: 15px;
+    }
+
+    #titulo2 {
+        margin-left: 15px;
+    }
+    #titulo3 {
+        margin-left: 15px;
+    }
+    
+    #mensajeForm {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+    .botonForm{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 6px;
+    }
+}

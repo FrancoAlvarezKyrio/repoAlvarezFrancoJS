@@ -1,0 +1,503 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* -------- Header --------- */
+header, .alert {
+    z-index: 100;    
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(0, 221, 255, 0.7)),url(imagenesCSS/bannerPoirier.png);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.h1Banner{
+    font-size: 36px;
+    font-weight: 600;
+    color: #d81717 !important;
+}
+
+
+
+/* ---------- Nav ---------- */
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    color: white;
+    background-color: #d81717 !important ;
+}
+.nav-link:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #f55a4f !important ;
+}
+.nav-item {
+    margin-left: 5px;
+}
+.imagenLogo{
+    width: 200px;
+    height: 70px;
+}
+
+
+/* ---- Boton ---- */
+.botonVolver {
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 25px;
+    }
+    .botonVolver:hover {
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: rgb(197, 16, 16);
+    }
+
+
+/* --------- Textos y parrafos -------- */
+.cajaDeTexto{
+    width: 90%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;    
+}
+.cajaDeTexto p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.tituloBanner{
+    color: white ;
+    font-style: italic;
+    font-family: sans-serif cursive;
+    font-size: 70px;
+    margin-top: 50px;
+}
+.h1Banner{
+    font-style: italic ;
+    font-family: sans-serif cursive;
+    font-size: 70px !important;
+}
+.parrafos {
+    text-align: center;
+    font-weight: bold;
+}
+
+.palabraUfc {
+    color: red;
+}
+.tituloBanner {
+    color: rgb(249, 13, 213);
+    font-size: 80px;
+    font-family:'Cinzel', serif;
+    font-weight: bold;
+}
+
+.h1Banner{
+    font-style: italic ;
+    font-family: sans-serif cursive;
+    font-size: 70px !important;
+    color: white !important;
+}
+.tituloParrafoPoirier{
+    width: 500px;
+    margin-left: 150px;
+}
+.tituloPoirier {
+   
+    text-align: center !important;
+    font-size: 36px;
+    color: black !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.parrafoPoirier {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: black;
+    font-family:'Cinzel', serif;
+}
+
+
+
+
+
+
+
+/* ------ Imagenes ------ */
+.imagenPoirier {
+    width: 500px;
+    height: 250px;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+}
+.imagenLogo2{
+    width: 200px;
+    height: 70px;
+    margin-right: 10px;
+    margin-bottom: 18px;
+}
+.imagenStats1 {
+    width: 300px;
+    height: 700px;
+    margin-top: 5px;
+    margin-left: 50px;  
+    margin-right: 50px;   
+}
+.imagenStats2 {
+    width: 300px;
+    height: 700px;
+    margin-top: 5px;
+    margin-right: 50px; 
+    margin-left: -250px;
+}
+.wallpaperPoirier {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+}
+
+
+
+
+
+
+
+/* ---- Contenedores y listas ---- */
+.divPoirier {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+}
+.contenedorDeContenedor {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+   
+}
+.contenedorStats {
+    display: flex;
+    flex-direction: row; 
+}
+.list-group{
+    padding: 1px;
+    width: 600px; 
+}
+.list-group-item {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-color: transparent;
+}
+.colorStats {
+    font-weight: bold;
+    color: rgb(181, 33, 33);
+}
+
+
+
+
+
+
+
+/* ----- Videos ----- */
+.videosKO {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.video1 {
+    padding: 1px;
+    width: 30%;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-left: 35px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+}
+
+
+
+
+
+
+/* --------- Footer ------- */
+.footer {
+    background: #24262b;
+    padding: 70px 0;
+    margin-top: 50px;    
+}
+.footer ul {
+    list-style: none;  
+}
+.container1 {
+    max-width: 100%;
+    margin: auto;
+}
+.rowFooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+.colFooter {
+    width: 25%;
+    padding: 0 15px;
+}
+.colFooter h4 {
+   font-size: 18px;
+   color: rgb(255, 255, 255);
+   text-transform: capitalize;
+   margin-bottom: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   position: relative;
+   margin-left: 35px;
+}
+.colFooter h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #dd0c0c;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+}
+.colFooter ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.colFooter ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.colFooter ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
+    color: red;
+}
+.iconosFooter {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 90%;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding: 13px;
+    margin-left: 25px;
+}
+.iconosFooter:hover {
+    color: red;
+    padding-left: 8px;
+}
+.iconosForm {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 90%;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding: 13px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:376px){
+    nav{
+        width: 100%;
+    }
+
+    .nav-link{
+        color: rgb(0, 0, 0) !important;
+        background-color: whitesmoke!important ;
+        font-family:  'Quicksand', sans-serif !important;
+        font-size: 13px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .imagenLogo{
+        width:150px;
+        height: 50px;
+        margin-top: 4px;
+    }
+    .botonVolver {
+        width: 100px;
+        margin-left: 85px;
+        margin-top: 5px;
+        font-size: 25px;
+        background-color: rgb(197, 16, 16); ;
+        color: white;
+
+    }
+    .botonVolver:hover {
+        color: rgb(255, 255, 255) !important;
+    }
+    .header {
+        width: 360px;
+        background-image:linear-gradient(rgba(4,9,30,0.7), rgba(0, 221, 255, 0.7)),url(imagenesCSS/bannerPoirier.png);
+        background-position: center;
+        background-size: cover;
+        position:relative;
+        margin-left: 6px;
+    }
+    .primerTitulo{
+        font-family: 'Cinzel', serif;
+        font-size: 23px;
+        font-weight: 1500;
+        color: #101010;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);     
+    }
+    .h1Banner{
+        font-size: 50px !important;
+    }
+    .tituloBanner{
+        font-size: 40px !important;
+    }
+    .palabraUfc{
+        font-size: 25px;
+        font-style: italic;
+        margin-right: 10px;
+    }
+    .divPoirier{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenPoirier{
+        margin: 0%;
+        margin-top: 15px;
+        width: 350px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);  
+    }
+    .tituloParrafoPoirier{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0); 
+        width: 300px;
+    }
+    .parrafoPoirier{
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .contenedorDeContenedor{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imagenStats1{
+        width: 200px;
+        height: 550px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .imagenStats2{
+        display: none;
+    }
+    .videosKO{
+        display: flex;
+        flex-direction: column;
+    }
+    .video1{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .wallpaperPoirier{
+      display: none;
+    }
+    .footer {
+        background: #24262b;
+        padding: 0%;    
+        margin-top: 10px; 
+  
+    }
+    .footer ul {
+        list-style: none;  
+    }
+    .container1 {
+        max-width: 100%;
+    }
+    .rowFooter {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 45px;
+    }
+    .colFooter {
+        width: 25%;
+        padding: 0px;
+    }
+    .colFooter h4 {
+       font-size: 16px;
+       color: rgb(255, 255, 255);
+       text-transform: capitalize;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 500;
+       position: relative;
+       margin-top: 20px;
+
+    }
+    .colFooter h4::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #dd0c0c;
+        height: 1px;
+        box-sizing: border-box;
+        width: 60px;
+    }
+    .colFooter ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .colFooter ul li a {
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #bbb;
+        text-decoration: none;
+        font-weight: 300;
+        display: block;
+        transition: all 0.3s ease;
+        margin-left: 5px;
+    }
+    .colFooter ul li a:hover{
+        color: #fff;
+        padding-left: 8px;
+        color: red;
+    }
+    .iconosFooter{
+        margin-left: 50px;
+    }
+}
