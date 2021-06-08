@@ -708,11 +708,11 @@ p{
    width: 1000px;
 }
 #tituloProducto {
-    color: rgb(39, 138, 177);
+    color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 900;
     text-align: left;
 }
 #imagenProducto {
@@ -764,23 +764,22 @@ p{
 #tallesColoresProducto {
     font-size: 10px !important;
     margin-bottom: 0%;
-    color: rgb(37, 173, 226);
+    color: rgb(72, 72, 75);
     text-align: left;
 }
 #templateTablaCarrito{
     background: rgb(255, 255, 255);
-    color: rgb(34, 180, 238);
+    color: black;
 }
 #tablaCarrito {
-    background-color: rgb(61, 189, 240);
+    background-color: rgb(223, 6, 6);
     margin-top: 50px;
-    border-radius:40px !important;
 }
 .letraCarrito {
     font-family: 'Quicksand', sans-serif !important;
     color: rgb(255, 255, 255);
     font-size: 19px;
-    background-color: rgb(61, 189, 240);
+    background-color: rgb(223, 6, 6);
     border-width: 1px;
     text-align: center;
 }
@@ -794,8 +793,8 @@ p{
     font-size: 20px;
 }
 #footerCarrito {
-    background-color: rgb(61, 189, 240);
-    color: rgba(0, 0, 0, 0.665) !important;
+    background-color: rgb(223, 6, 6);
+    color: rgb(253, 253, 253) !important;
     font-family: 'Quicksand', sans-serif !important;
     font-size: 21px;
     border-color: rgb(255, 255, 255);
@@ -1072,17 +1071,17 @@ font-weight: bold;
         font-size: 20px;
     }
     #botonProducto:hover{
-        font-size: 500px;
+        font-size: 20px;
         color: white;
     }
     #tituloProducto{
         font-size: 25px;
         margin-bottom: 0%;
-        color: rgb(39, 173, 226);
+        color: rgb(0, 0, 0);
         text-align: center;
     }
     #tallesColoresProducto{
-        color: rgb(61, 159, 197);
+        color: rgb(70, 69, 69);
         font-size: 15px !important;
         text-align: center;
     }
@@ -1105,24 +1104,36 @@ font-weight: bold;
     }
     #tablaCarrito{
         padding: 0%;
+        background-color: rgb(223, 6, 6);
     }
     #templateTablaCarrito{
         font-size: 15px;
-        text-align: left;
+        text-align: left; 
+        color: black;
     }
+    
     #letrasFooterCarrito{
         font-size: 15px;
+        background-color: rgb(223, 6, 6);
     }
     #numerosFooterCarrito{
         font-size: 15px;
-    }
+        background-color: rgb(223, 6, 6);   
+     }
     #numeros2FooterCarrito{
         font-size: 15px !important;
+        background-color: rgb(223, 6, 6);   
     }
     #vaciar-carrito{
+        margin-left: 0%;
         height: 30px;
         font-size: 10px;
         margin-top: 15px;
+    }
+    #footerCarrito{
+        background-color: rgb(223, 6, 6);
+        color: white !important;
+        font-size: 15px;
     }
 
     /* Form */
