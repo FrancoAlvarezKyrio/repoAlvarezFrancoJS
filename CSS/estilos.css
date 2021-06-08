@@ -4,9 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-
 /* -------- Header --------- */
 header, .alert {
     z-index: 100;    
@@ -19,8 +16,6 @@ header, .alert {
     background-size: cover;
     position:relative;
 }
-
-
 
 /* ----------------------- Primer Seccion ------------------- */
 /* ---------- Nav ---------- */
@@ -94,11 +89,9 @@ nav{
     text-align: center;
     padding-top: 100px;
 }
-
 .tituloProductos {
     font-size: 70px;
 }
-
 h1{
     font-family: 'Cinzel', serif;
     font-size: 80px;
@@ -174,10 +167,19 @@ p{
     margin-bottom: 25px;
     border-radius: 10px;
 }
-.table {
-    font-size: 16px; 
-    background-color: rgb(206, 20, 20);
-    color: white !important;
+#datosTabla{  
+    text-align: center;
+    border-color: red;
+
+}
+.fondoTable{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-align: center;
+}
+.coloresTabla{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 }
 #botonEventos {
     color: #fff;
@@ -219,7 +221,6 @@ p{
     box-shadow: 0px 30px 20px 5px rgba(0, 0, 0);
 }
 
-
 /* -------- Layer ------------ */
 .layerRojo{
     background:transparent;
@@ -251,7 +252,6 @@ p{
     opacity: 1;
 }
 
-
 /* ----------------------- Card ------------------- */
 .contenedorProductoTienda{
     display: flex;
@@ -280,7 +280,6 @@ p{
     color: rgb(47, 194, 47);
     font-family: 'Cinzel', serif;
 }
-
 
 /* ------------------------ Buttons ----------------- */
 .button {
@@ -351,11 +350,9 @@ p{
     background:rgb(64, 196, 93) !important ;
     color: rgb(255, 255, 255) !important;
 }
-
 #filtroCategorias{
     margin-bottom: 25px;
 }
-
 
 /* ----------- Parrafos , palabras ------- */
 .parrafos {
@@ -387,9 +384,7 @@ p{
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
 }
 
-
 /* ---------- Carrito  ---------- */
-
 .description{
     height: 25px;
     overflow: hidden;
@@ -415,8 +410,6 @@ p{
     margin-top: 30px;
     font-size: 20px;
 }
-
-
 .table__productos{
     display: flex;
 }
@@ -451,30 +444,34 @@ p{
     height: 13px;
     margin-left: 10px;
 }
-.agradecimiento {
-    margin-left: 250px;
-    margin-top: 100px;
-    display: none;
-    width: 500px;
-    height: 150px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0);
-    background-color: rgb(199, 20, 20) !important;
-    border-radius: 10px;
-    color: #fff;
-}
-.agradecimientoDos {
-    font-size: 30px;
-    font-family:'Cinzel', serif;
-    color: rgb(255, 255, 255);
-}
-.agradecimientoTres {
-    font-size: 30px;
-    font-family:'Cinzel', serif;
-    color: rgb(0, 0, 0);
-}
-
 
 /* ----------- Formulario --------- */
+#mensaje1{
+    color: rgb(245, 48, 48);
+    font-size: 15px;
+    margin-top: 35px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+#mensaje2{
+    color: rgb(245, 48, 48);
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: 15px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+#mensaje3{
+    color: rgb(245, 48, 48);
+    font-size: 15px;
+    margin-top: 278px;
+    margin-left: 15px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
 .label {
     font-family: 'Quicksand', sans-serif;
     color: black;
@@ -486,10 +483,9 @@ p{
     font-family:'Cinzel', serif;
 }
 .contacto {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
+    max-width: 1100px;
+    margin-left: 120px;
+
 }
 .contenedorTituloForm{
     display: flex;
@@ -501,6 +497,7 @@ p{
     margin-bottom: 30px;
     margin-top: 0%;
     font-size: 80px;
+    margin-left: 50px;
 }
 .subTituloForm {
     font-family:'Cinzel', serif;
@@ -522,13 +519,11 @@ p{
     width: 100%;
     height: 600px;
 }
-
-
 .contactoWrapper {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0);
     padding: 1em;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .contactoFormulario {
     background: rgb(255, 255, 255)
@@ -570,6 +565,7 @@ p{
 }
 .contactoInfo {
     background: black;
+    margin-left: 0px;
 }
 .contactoInfo h4,
 .contactoInfo ul,
@@ -593,23 +589,19 @@ p{
     display: flex;
     flex-direction: row;
 }
-
 #nombreForm {
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
 #mailForm {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 14px;
 }
-
 #mensajeForm {
     margin-top: 10px;
     margin-left: 14px;
 }
-
 #titulo2{
     margin-left: 14px;
 }
@@ -617,13 +609,11 @@ p{
     margin-left: 14px;
 }
 
-
 /* --------- Footer ------- */
 .footer {
     background: #24262b;
     padding: 70px 0;
-    margin-top: 100px;
-   
+    margin-top: 100px;   
 }
 .footer ul {
     list-style: none;  
@@ -705,113 +695,106 @@ p{
     margin-top: 20px;
 }
 .mapa {
-
     margin-top: 50px;
 }
 
-
 /* PRODUCTO */
-
+#carouselExampleIndicators{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.divProducto{
+   background-color: rgb(255, 255, 255);
+   width: 1000px;
+}
 #tituloProducto {
-    color: rgb(255, 255, 255);
-    background: rgb(11, 163, 16);
+    color: rgb(39, 138, 177);
+    background: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    text-align: center;
-    border-radius: 3px !important;
-    padding: 5px;
+    text-align: left;
 }
-
 #imagenProducto {
-    width: 120px !important;
-    height: 112px !important;
-    margin-left: 30px;
+    width: 200px !important;
+    height: 300px !important;
+    margin-left: 25px;
 }
-
 #cardProducto {
-    width: 180px;
-    border-radius: 5px !important;
-    box-shadow: 1 0 0 10px rgba(0,0,0,0.3);
-    margin-top: 5px;
+    width: 260px;
+    border-radius: 0% !important;
+    box-shadow: 0 0 0 0px rgba(0,0,0,0.3);
+    margin-top: 25px;
+    margin-right: 1000000px;
 }
-
 #cardProducto:hover {
-    border-radius: 5px !important;
     transform: scale(1.1);
     margin-bottom: 15px;
     margin-top: 25px;
     box-shadow: 0 0 0 0px rgba(0,0,0,0.3);
 }
-
 #botonProducto{
     width: 100%;
     color: rgb(255, 255, 255);
     background: rgb(11, 163, 16);
     border-color: transparent;
-}
+    font-size: 10px;
 
+}
 #botonProducto:hover{
     width: 100%;
     color: rgb(255, 255, 255);
-    background: rgb(71, 223, 76);
+    background: rgb(111, 236, 116);
     border-color: transparent;
-}
+    font-size: 12px;
 
+}
 #precioProducto {
     color:rgb(11, 163, 16) ;
     text-align: center;
-    margin-top: 0%;
-    font-size: 20px;
+    font-size:25px;
+    
 }
-
 #palabraPrecioProducto {
     color:rgb(11, 163, 16) !important ;
     text-align: center;
-    margin-bottom: 0% !important;
+    margin-bottom: 0px;
     font-size: 10px !important;
 }
-
 #tallesColoresProducto {
-    font-size: 13px !important;
+    font-size: 10px !important;
     margin-bottom: 0%;
+    color: rgb(37, 173, 226);
+    text-align: left;
 }
-
 #templateTablaCarrito{
     background: rgb(255, 255, 255);
-    color: black;
+    color: rgb(34, 180, 238);
 }
-
 #tablaCarrito {
-    background: rgba(153, 212, 243, 0.255);
-    border-color: red !important;
+    background-color: rgb(61, 189, 240);
     margin-top: 50px;
     border-radius:40px !important;
 }
-
 .letraCarrito {
     font-family: 'Quicksand', sans-serif !important;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 19px;
-    border-color: rgb(252, 252, 252);
+    background-color: rgb(61, 189, 240);
     border-width: 1px;
     text-align: center;
-
 }
-
 #items{
-    background: rgba(130, 206, 247, 0.685);
+    background-color: rgb(61, 189, 240);
     color: rgb(255, 252, 252);
     font-family: 'Quicksand', sans-serif !important;
     border-color: rgb(255, 255, 255);
     border-width: 5px !important;
     text-align: center;
     font-size: 20px;
-
 }
-
 #footerCarrito {
-    background: rgba(119, 219, 230, 0.199);
+    background-color: rgb(61, 189, 240);
     color: rgba(0, 0, 0, 0.665) !important;
     font-family: 'Quicksand', sans-serif !important;
     font-size: 21px;
@@ -820,31 +803,21 @@ p{
     text-align: center;
     border-radius: 50px !important;
 }
-
 #letrasFooterCarrito {
-color:rgb(0, 0, 0) ;
+color:rgb(255, 251, 251) ;
 font-family: 'Quicksand', sans-serif !important;
 font-weight: bold;
 }
-
 #numerosFooterCarrito {
-color:rgb(0, 0, 0) ;
+color:rgb(252, 249, 249) ;
 font-family: 'Quicksand', sans-serif !important;
 font-weight: bold;
-}
- 
+} 
 #numeros2FooterCarrito {
-color:rgb(0, 0, 0) ;
+color:rgb(245, 244, 244) ;
 font-family: 'Quicksand', sans-serif !important;
 font-weight: bold;
 }
-
-#numeros2FooterCarrito:hover{
-    color: rgb(0, 255, 8);
-    transform: scale(1.2);
-}
-        
-
 
 #vaciar-carrito{
     background:rgb(11, 163, 16) ;
@@ -852,12 +825,10 @@ font-weight: bold;
     margin-left: 10px;
     font-size: 17px;
 }
-
 #vaciar-carrito:hover{
     background:rgb(114, 221, 118) ;
     border-color: transparent;
 }
-
 #botonSumar {
     background: rgb(11, 163, 16);
     border-color: transparent;
@@ -870,8 +841,6 @@ font-weight: bold;
     margin-left: 5px;
     color: white;
 }
-
-
 #botonRestar {
     background: rgb(194, 17, 17);
     margin-left: 5px;
@@ -883,24 +852,45 @@ font-weight: bold;
     width: 25px;
 }
 
-
+/* RESPONSIVE I PHONE X  375pxMAX*/ 
 @media screen and (max-width:376px){
 
+/* Nav */
     nav{
-        width: 100%;
+        width: 500px !important;
     }
-
     .nav-link{
-        color: rgb(0, 0, 0) !important;
+        color: rgb(255, 255, 255) !important;
         background-color: whitesmoke!important ;
         font-family:  'Quicksand', sans-serif !important;
         font-size: 13px;
-        margin-top: 50px;
+        font-weight: 900 !important;
         width: 100%;
+        margin-left: 0px;
+        background-color: rgb(208, 13, 13) !important;
+    }  
+      .nav-link:hover{
+        color: rgb(255, 253, 253) !important;
+        background-color: whitesmoke!important ;
+        font-family:  'Quicksand', sans-serif !important;
+        font-size: 13px;
+        font-weight: 900 !important;
+        width: 100%;
+        margin-left: 0px;
+        background-color: rgb(208, 13, 13) !important;
+        box-shadow: 0px 0px 10px 0px black;
     }
     .imagenLogo{
-        width:350px;
+        width:310px;
+        height: 80px;
+        margin-left: 10px;
+        margin-bottom: 30px;
     }
+    .imagenLogo2{
+        margin-top: 700px;
+    }
+
+    /* Header */
     .header {
         width: 360px;
         background-image:linear-gradient(rgba(4,9,30,0.7), rgba(249, 17, 17, 0.407)),url(imagenesCSS/portada2.jpg);
@@ -911,59 +901,91 @@ font-weight: bold;
     }
     .primerTitulo{
         font-family: 'Cinzel', serif;
-        font-size: 23px;
-        font-weight: 1500;
+        font-size: 35px;
         color: #101010;
         width: 100%;
         text-align: center;
-        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);     
     }
-    .fondoTable{
-        background-color: gray;
-        font-size: 10px;
+    .parrafos{
+        color: black;
+        font-size: 15px;
     }
 
+    /* Tabla */
+    .fondoTable{
+        background-color: rgb(95, 93, 93);
+        color: rgb(255, 243, 243);
+        font-size: 9px;
+    }
     #datosTabla{
-        background-color: gray;
+        background-color: rgb(255, 255, 255);
+        color: black;
         font-size: 10px;
-        width: 340px;
     }
     #datosTabla:hover{
-        background-color: gray;
+        background-color: rgb(243, 212, 212);
+        color: black;
         font-size: 10px;
         transform: scale(1.2);
     }
+
+    /* Botones */
     #botonEventos{
         font-size: 30px;
-        width: 340px;
+        width: 327px;
         background-color: black;
+        margin-top: 20px;
     }
     #botonEventos:hover{
         font-size: 30px;
-        width: 340px;
+        width: 327px;
         background-color: black;
     }
+
+    /* Campeones y luchadores */
     .h1Campeones{
         font-family: 'Cinzel', serif;
-        font-size: 25px;
+        font-size: 30px !important;
         font-weight: 1000;
         color: #101010;
         width: 100%;
         text-align: center; 
         box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
+        margin-top: 50px;
         margin-bottom: 25px;
+        border-radius: 5px;
+    }
+    .imagenCampeones{
+        display: none;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .seccionLuchadores{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .columnaLuchadores {
+        flex-basis: 100%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;    
     }
     .columnaLuchadores img {
-        width: 80px;
-        height: 150px;
+        width: 300px;
+        height: 100%;
         border-radius: 10px;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);
     }
+
+    /* Footer */
     .footer {
         background: #24262b;
         padding: 0%;    
         margin-top: 10px; 
-  
     }
     .footer ul {
         list-style: none;  
@@ -988,7 +1010,6 @@ font-weight: bold;
        font-weight: 500;
        position: relative;
        margin-top: 20px;
-
     }
     .colFooter h4::before{
         content: "";
@@ -1021,37 +1042,61 @@ font-weight: bold;
     .iconosFooter{
         margin-left: 50px;
     }
+    .carouselTienda{
+        height: 250px;
+    }
+
+    /* Producto*/
     #cardProducto{
         width: 350px;
     }
     #cardProducto:hover{
         transform: none;
-    }     
+    }  
+    .categoriaProducto{
+        font-size: 20px;
+        color: black !important;
+        border-color: transparent !important;
+    }   
+    .categoriaProducto:hover{
+        font-size: 20px;
+        color: black !important;
+        border-color: transparent !important;
+    }
     #imagenProducto {
-        width: 290px !important;
-        height: 250px !important;
-        margin-left: 25px;
+        width: 255px !important;
+        height: 300px !important;
+        margin-left: 50px;
     }
     #botonProducto{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    #botonProducto:hover{
+        font-size: 500px;
+        color: white;
     }
     #tituloProducto{
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 0%;
+        color: rgb(39, 173, 226);
+        text-align: center;
     }
     #tallesColoresProducto{
-        color: rgb(0, 0, 0);
+        color: rgb(61, 159, 197);
         font-size: 15px !important;
+        text-align: center;
     }
     #precioProducto{
-        color: rgb(84, 184, 38);
+        color: rgb(48, 196, 19);
         font-size: 40px !important;
     }
     #palabraPrecioProducto{
-        color: rgb(0, 0, 0);
-        font-size: 20px !important;
+        margin-top: 20px;
+        color: rgb(48, 196, 19);
+        font-size: 15px !important;
     }
 
+    /* Carrito*/
     .letraCarrito{
         font-size: 15px;
         padding: 0%;
@@ -1077,13 +1122,15 @@ font-weight: bold;
     #vaciar-carrito{
         height: 30px;
         font-size: 10px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
+
+    /* Form */
     .label {
         font-family: 'Quicksand', sans-serif;
         color: black;
         font-weight: bold;
-        padding: 0%;
+        margin-bottom: 0%;
     }
     .spanForm {
         color: red;
@@ -1155,8 +1202,7 @@ font-weight: bold;
     }
     .contactoFormulario form textarea{
        height: 300px;
-    }
-    
+    }    
     .contactoFormulario form button{
         background: #b70e0e;
         border: 0;
@@ -1192,29 +1238,30 @@ font-weight: bold;
     .imagenesForm {
         display: flex;
         flex-direction: row;
-    }
-    
-    #nombreForm {
-        margin-top: 10px;
-        margin-bottom: 50px;
-    }
-    
+    }     
     #mailForm {
-        margin-top: 10px;
-        margin-bottom: 50px;  
         margin-left: 15px;
     }
-
     #titulo2 {
         margin-left: 15px;
     }
     #titulo3 {
         margin-left: 15px;
-    }
-    
+    }    
     #mensajeForm {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-left: 15px;
+        height: 150px;
+    }
+    #mensaje1{
+        color: red;
+        margin-top: 30px;
+    }
+    #mensaje2{
+        color: red;
+    }
+    #mensaje3{
+        color: red;
+        margin-top: 8px;
         margin-left: 15px;
     }
     .botonForm{

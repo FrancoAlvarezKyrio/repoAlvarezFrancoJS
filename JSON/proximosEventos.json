@@ -1,0 +1,67 @@
+[
+    {
+        "numeroDeEvento" : "Nº 262",
+        "fechaDeEvento"  : "Sábado 15, Mayo, 2021",        
+        "ubicacion"     : "Platea alta",
+        "precio"           : " $ 1500",
+        "estelar"          : " Poirier VS Gaethje"
+    },
+    {
+        "numeroDeEvento" : "Nº 262",
+        "fechaDeEvento"  : "Sábado 15, Mayo, 2021",       
+        "ubicacion"       : "Platea baja",
+        "precio"           : " $ 2000",
+        "estelar"          : " Poirier VS Gaethje"
+    },
+    {
+        "numeroDeEvento" : "Nº 262",
+        "fechaDeEvento"  : "Sábado 15, Mayo, 2021",       
+        "ubicacion"       : "Palco",
+        "precio"           : " $ 2500",
+        "estelar"          : " Poirier VS Gaethje"
+    },
+    {
+        "numeroDeEvento" : "Nº 263",
+        "fechaDeEvento"  : "Sábado 22, Mayo, 2021",        
+        "ubicacion"       : "Platea alta",
+        "precio"           : " $ 1500",
+        "estelar"          : " Nurmagomedov VS Mc Gregor"
+    },
+    {
+        "numeroDeEvento" : "Nº 263",
+        "fechaDeEvento"  : "Sábado 22, Mayo, 2021",        
+        "ubicacion"       : "Platea baja",
+        "precio"           : " $ 2000",
+        "estelar"          : " Nurmagomedov VS Mc Gregor"
+    },
+    {
+        "numeroDeEvento" : "Nº 263",
+        "fechaDeEvento"  : "Sábado 22, Mayo, 2021",
+        "ubicacion"       : "Palco",
+        "precio"           : " $ 2500",
+        "estelar"          : " Nurmagomedov VS Mc Gregor"
+        
+    },
+    {
+        "numeroDeEvento" : "Nº 264",
+        "fechaDeEvento"  : "Sábado 29, Mayo, 2021",        
+        "ubicacion"       : "Platea alta",
+        "precio"           : " $ 1500",
+        "estelar"          : " Silva VS St Pierre"
+    },
+    {
+        "numeroDeEvento" : "Nº 264",
+        "fechaDeEvento"  : "Sábado 29, Mayo, 2021",        
+        "ubicacion"       : "Platea baja",
+        "precio"           : " $ 2000",
+        "estelar"          : " Silva VS St Pierre"
+    },
+    {
+        "numeroDeEvento" : "Nº 264",
+        "fechaDeEvento"  : "Sábado 29, Mayo, 2021",
+        "ubicacion"       : "Palco",
+        "precio"           : " $ 2500",
+        "estelar"          : " Silva VS St Pierre"
+        
+    }
+]

@@ -54,24 +54,16 @@ nav{
 /* ---- Boton ---- */
 .botonVolver {
     width: 500px;
-    margin-left: 400px;
-    margin-top: 10px;
+    margin-left: 420px;
     font-size: 25px;
+    margin-top: 10px;
     }
-    .botonVolver:hover {
-        width: 500px;
-        margin-left: 400px;
-        margin-top: 10px;
-        font-size: 25px;
-        background-color: rgb(197, 16, 16);
-        }
-
-
-
-/* ---- Boton ---- */
-.botonVolver {
-    margin-top: 3px;
-}
+.botonVolver:hover {
+    width: 500px;
+    margin-left: 420px;
+    font-size: 25px;
+    background-color: rgb(197, 16, 16);
+    }
 
 
 
@@ -363,7 +355,7 @@ nav{
     .botonVolver {
         width: 100px;
         margin-left: 85px;
-        margin-top: 5px;
+        margin-top: 4px;
         font-size: 25px;
         background-color: rgb(197, 16, 16); ;
         color: white;
@@ -407,6 +399,7 @@ nav{
         margin: 0%;
         margin-top: 15px;
         width: 350px;
+        height: 200px;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0);  
     }
     .tituloParrafoMcGregor{

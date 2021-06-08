@@ -1,0 +1,603 @@
+[
+    {
+    "id"     : "1",
+    "nombre" : "Guantes Venum Steel",
+    "imagen" : "ImagenesUFC/tiendaUFC/guantesVenum!.jpeg",
+    "talle"  : "Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24   - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "4499",
+    "tipo"   : "Guantes"
+},
+
+{
+    "id"     : "2",
+    "nombre" : "Guantes Venum Dark",
+    "imagen" : "ImagenesUFC/tiendaUFC/guantesVenumNegros.jpg",
+    "talle"  : "Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24    - Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "4499",
+    "tipo"   : "Guantes"
+},
+
+{
+    "id"     : "3",
+    "nombre" : "Guantes Venum Dracoon",
+    "imagen" : "ImagenesUFC/tiendaUFC/guantesVenumDragoon.png",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "4499",
+    "tipo"   : "Guantes"
+},
+
+{
+    "id"     : "4",
+    "nombre" : "Guantes Venum Rosé",
+    "imagen" : "ImagenesUFC/tiendaUFC/guantesVenumRosas.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Rosa-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "5499",
+    "tipo"   : "Guantes"
+},
+
+{
+    "id"     : "5",
+    "nombre" : "Guantes Venum Ocean",
+    "imagen" : "ImagenesUFC/tiendaUFC/guantesVenumOcean.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Azul-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "5499",
+    "tipo"   : "Guantes"
+},
+
+{
+    "id"     : "6",
+    "nombre" : "Guantes Venum Snake",
+    "imagen" : "ImagenesUFC/tiendaUFC/guantesVenumSnake.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "5499",
+    "tipo"   : "Guantes"
+},
+
+{
+    "id"     : "7",
+    "nombre" : "Vendas Venum Gel Blood",
+    "imagen" : "ImagenesUFC/tiendaUFC/vendasNegrasDoradas.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "8",
+    "nombre" : "Vendas Venum Gel Rosé",
+    "imagen" : "ImagenesUFC/tiendaUFC/vendasRosas.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Rosa-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "9",
+    "nombre" : "Vendas Venum Gel Light",
+    "imagen" : "ImagenesUFC/tiendaUFC/vendasAmarillas.jfif",
+    "talle"  : "- Talles : XS -S- M- L-XL  10/12/14/16/18/20/22/24    - Color : Negro-Amarillo ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "10",
+    "nombre" : "Vendas Venum Gel Flame",
+    "imagen" : "ImagenesUFC/tiendaUFC/vendasNegrasDoradas.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "11",
+    "nombre" : "Vendas Venum Gel Wood",
+    "imagen" : "ImagenesUFC/tiendaUFC/vendasNegras1.jpg",
+    "talle"  : "- Talles : XS- S- M- L-XL 10/12/14/16/18/20/22/24      - Colores :Marron-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "12",
+    "nombre" : "Vendas Venum Gel Dark",
+    "imagen" : "ImagenesUFC/tiendaUFC/vendasMarron.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "13",
+    "nombre" : "Pantalón Venum Red Inferno",
+    "imagen" : "ImagenesUFC/tiendaUFC/largoVenum1.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Rojo-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "14",
+    "nombre" : "Pantalón Venum White Snake",
+    "imagen" : "ImagenesUFC/tiendaUFC/largoVenum2.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Blanco-Verde ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "15",
+    "nombre" : "Pantalón Venum Cold Frizz",
+    "imagen" : "ImagenesUFC/tiendaUFC/largoVenum4.jpg",
+    "talle"  : "- Talles : XS -S- M- L-XL 10/12/14/16/18/20/22/24     - Color : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "2499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "16",
+    "nombre" : "Pantalón Venum Grey Frizz",
+    "imagen" : "ImagenesUFC/tiendaUFC/largoVenumFrizz.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Gris-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "2499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "17",
+    "nombre" : "Pantalón Venum Black Frizz",
+    "imagen" : "ImagenesUFC/tiendaUFC/pantalonLargoVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L-XL 10/12/14/16/18/20/22/24      - Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "2499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "18",
+    "nombre" : "Pantalón Venum Shadow Frizz",
+    "imagen" : "ImagenesUFC/tiendaUFC/pantalonVenumMilitary.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Vendas"
+},
+
+{
+    "id"     : "19",
+    "nombre" : "Remera Venum Gorilla",
+    "imagen" : "ImagenesUFC/tiendaUFC/cortaVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Azul ",
+    "color"  : "$.ARS",
+    "precio" : "999",
+    "tipo"   : "remeras"
+},
+
+{
+    "id"     : "20",
+    "nombre" : "Remera Venum Skull",
+    "imagen" : "ImagenesUFC/tiendaUFC/cortaVenumScull.png",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "999",
+    "tipo"   : "remeras"
+},
+
+{
+    "id"     : "21",
+    "nombre" : "Remera Venum Shine",
+    "imagen" : "ImagenesUFC/tiendaUFC/cortaVenumWhite.jpg",
+    "talle"  : "- Talles : XS -S- M- L-XL  10/12/14/16/18/20/22/24    - Color : Blanco-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "999",
+    "tipo"   : "remeras"
+},
+
+{
+    "id"     : "22",
+    "nombre" : "Remera Venum Viper",
+    "imagen" : "ImagenesUFC/tiendaUFC/cortaVenumViper.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "999",
+    "tipo"   : "remeras"
+},
+
+{
+    "id"     : "23",
+    "nombre" : "Remera Venum Fitness",
+    "imagen" : "ImagenesUFC/tiendaUFC/cortaVenumFit.jpg",
+    "talle"  : "- Talles : XXS- XS- S- M 10/12/14/16/18/20/22/24     - Colores :Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "999",
+    "tipo"   : "remeras"
+},
+
+{
+    "id"     : "24",
+    "nombre" : "Remera Venum Dragoon",
+    "imagen" : "ImagenesUFC/tiendaUFC/remeraDracoonVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL  10/12/14/16/18/20/22/24    - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "999",
+    "tipo"   : "remeras"
+},
+
+{
+    "id"     : "25",
+    "nombre" : "Térmica Venum Inferno",
+    "imagen" : "ImagenesUFC/tiendaUFC/remeraTermica.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "termicas"
+},
+
+{
+    "id"     : "26",
+    "nombre" : "Térmica Venum Wildness",
+    "imagen" : "ImagenesUFC/tiendaUFC/remeraLargaVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Rosa-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "termicas"
+},
+
+{
+    "id"     : "27",
+    "nombre" : "Térmica Venum Ocean",
+    "imagen" : "ImagenesUFC/tiendaUFC/TermicaOcean.jpg",
+    "talle"  : "- Talles : XS -S- M- L-XL 10/12/14/16/18/20/22/24     - Color : Negro-Amarillo ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "termicas"
+},
+
+{
+    "id"     : "28",
+    "nombre" : "Térmica Venum X Viper",
+    "imagen" : "ImagenesUFC/tiendaUFC/TermicaViper.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "termicas"
+},
+
+{
+    "id"     : "29",
+    "nombre" : "Térmica Venum Spartan",
+    "imagen" : "ImagenesUFC/tiendaUFC/termicaSpartan.jpg",
+    "talle"  : "- Talles : XS- S- M- L-XL  10/12/14/16/18/20/22/24     - Colores :Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "termicas"
+},
+
+{
+    "id"     : "30",
+    "nombre" : "Térmica Venum WildBear",
+    "imagen" : "ImagenesUFC/tiendaUFC/largaVenumSkull.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "termicas"
+},
+
+{
+    "id"     : "31",
+    "nombre" : "Buzo Venum Black ",
+    "imagen" : "ImagenesUFC/tiendaUFC/buzoVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Buzos"
+},
+
+{
+    "id"     : "32",
+    "nombre" : "Buzo Ufc Dark Grey",
+    "imagen" : "ImagenesUFC/tiendaUFC/buzoVenum2.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Gris-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "2499",
+    "tipo"   : "Buzos"
+},
+
+{
+    "id"     : "33",
+    "nombre" : "Buzo Ufc Light Grey",
+    "imagen" : "ImagenesUFC/tiendaUFC/buzoVenum3.jpg",
+    "talle"  : "- Talles : XS -S- M- L-XL 10/12/14/16/18/20/22/24     - Color : Gris-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "2499",
+    "tipo"   : "Buzos"
+},
+
+{
+    "id"     : "34",
+    "nombre" : "Buzo Ufc Darkness",
+    "imagen" : "ImagenesUFC/tiendaUFC/buzoVenum4.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "2499",
+    "tipo"   : "Buzos"
+},
+
+{
+    "id"     : "35",
+    "nombre" : "Buzo Ufc Muay Thai",
+    "imagen" : "ImagenesUFC/tiendaUFC/buzoVenum5.jpg",
+    "talle"  : "- Talles : XS- S- M- L-XL 10/12/14/16/18/20/22/24      - Colores :Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "3499",
+    "tipo"   : "Buzos"
+},
+
+{
+    "id"     : "36",
+    "nombre" : "Buzo Ufc She Rosé",
+    "imagen" : "ImagenesUFC/tiendaUFC/buzoUfcRosa.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Rosa ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Buzos"
+},
+
+{
+    "id"     : "37",
+    "nombre" : "Campera Venum Air Stylish",
+    "imagen" : "ImagenesUFC/tiendaUFC/camperaVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL  10/12/14/16/18/20/22/24    - Colores : Gris-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Camperas"
+},
+
+{
+    "id"     : "38",
+    "nombre" : "Campera Venum Light Grey",
+    "imagen" : "ImagenesUFC/tiendaUFC/camperaVenum2.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Camperas"
+},
+
+{
+    "id"     : "39",
+    "nombre" : "Campera Venum The Athlantic",
+    "imagen" : "ImagenesUFC/tiendaUFC/camperaVenum3.jpg",
+    "talle"  : "- Talles : XS -S- M- L-XL  10/12/14/16/18/20/22/24    - Color : Negro-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Camperas"
+},
+
+{
+    "id"     : "40",
+    "nombre" : "Campera Venum Dark Fitness",
+    "imagen" : "ImagenesUFC/tiendaUFC/camperaVenum4.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "3499",
+    "tipo"   : "Camperas"
+},
+
+{
+    "id"     : "41",
+    "nombre" : "Campera Venum Black Hood",
+    "imagen" : "ImagenesUFC/tiendaUFC/camperaVenum5.jpg",
+    "talle"  : "- Talles : XS- S- M- L-XL  10/12/14/16/18/20/22/24     - Colores :Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "3499",
+    "tipo"   : "Camperas"
+},
+
+{
+    "id"     : "42",
+    "nombre" : "Campera Venum Classic Style",
+    "imagen" : "ImagenesUFC/tiendaUFC/camperaVenumLila.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL  10/12/14/16/18/20/22/24    - Colores : Rojo-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "3499",
+    "tipo"   : "Camperas"
+},
+
+{
+    "id"     : "43",
+    "nombre" : "Gorra Venum Light Grey",
+    "imagen" : "ImagenesUFC/tiendaUFC/gorraVenum.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL  10/12/14/16/18/20/22/24    - Colores : Gris-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "Gorras"
+},
+
+{
+    "id"     : "44",
+    "nombre" : "Gorra Venum Darkness",
+    "imagen" : "ImagenesUFC/tiendaUFC/gorraVenumDark.jpg",
+    "talle"  : "- Talles : XS- S- M- L- XL  10/12/14/16/18/20/22/24    - Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "1999",
+    "tipo"   : "Gorras"
+},
+
+{
+    "id"     : "45",
+    "nombre" : "Gorra NewEra Flame",
+    "imagen" : "ImagenesUFC/tiendaUFC/gorraNYroja.jfif",
+    "talle"  : "- Talles : XS -S- M- L-XL 10/12/14/16/18/20/22/24     - Color : Rojo-Blanco",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Gorras"
+},
+
+{
+    "id"     : "46",
+    "nombre" : "Gorra NewEra OldSchool",
+    "imagen" : "ImagenesUFC/tiendaUFC/gorraNEblue.jfif",
+    "talle"  : "- Talles : XS- S- M- L- XL 10/12/14/16/18/20/22/24     - Colores : Azul-Gris ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Gorras"
+},
+
+{
+    "id"     : "47",
+    "nombre" : "Gorra NewEra Military",
+    "imagen" : "ImagenesUFC/tiendaUFC/gorraNEmili.jpg",
+    "talle"  : "- Talles : XS- S- M- L-XL 10/12/14/16/18/20/22/24      - Colores :Verde-Marron ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Gorras"
+},
+
+{
+    "id"     : "48",
+    "nombre" : "Gorra NewEra Liberty",
+    "imagen" : "ImagenesUFC/tiendaUFC/gorraLiberty.png",
+    "talle"  : "- Talles : XS- S- M- L- XL  10/12/14/16/18/20/22/24    - Colores : Azul-Celeste ",
+    "color"  : "$.ARS",
+    "precio" : "1499",
+    "tipo"   : "Gorras"
+},
+
+{
+    "id"     : "49",
+    "nombre" : "Zapatillas Reebok One Dark Gray",
+    "imagen" : "ImagenesUFC/tiendaUFC/zapasMcGregor.jpg",
+    "talle"  : " Talles : 8/8.5/9/9.5/10      Colores : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Zapatillas"
+},
+
+{
+    "id"     : "50",
+    "nombre" : "Zapatillas Reebok One Light Gray",
+    "imagen" : "ImagenesUFC/tiendaUFC/zapasRebok.jpg",
+    "talle"  : " Talles : 8/8.5/9/9.5/10     Colores : Gris-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Zapatillas"
+},
+
+{
+    "id"     : "51",
+    "nombre" : "Zapatillas Reebok One Light Blue",
+    "imagen" : "ImagenesUFC/tiendaUFC/zapasRebok2.jpg",
+    "talle"  : " Talles : 8/8.5/9/9.5/10     Colores : Celeste-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Zapatillas"
+},
+
+{
+    "id"     : "52",
+    "nombre" : "Zapatillas Reebok One Dark Violet",
+    "imagen" : "ImagenesUFC/tiendaUFC/zapasRebok3.jpg",
+    "talle"  : " Talles : 8/8.5/9/9.5/10     Colores : Violeta-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Zapatillas"
+},
+
+{
+    "id"     : "53",
+    "nombre" : "Zapatillas Reebok One Light Orange",
+    "imagen" : "ImagenesUFC/tiendaUFC/zapasRebok4.jpg",
+    "talle"  : " Talles : 8/8.5/9/9.5/10     Colores : Salmon-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Zapatillas"
+},
+
+{
+    "id"     : "54",
+    "nombre" : "Zapatillas Reebok Sports Fire ",
+    "imagen" : "ImagenesUFC/tiendaUFC/zapasRebok5.jpg",
+    "talle"  : " Talles : 8/8.5/9/9.5/10     Colores : Naranja-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "5999",
+    "tipo"   : "Zapatillas"
+},
+
+{
+    "id"     : "55",
+    "nombre" : "Mochila Venum Dark Blood",
+    "imagen" : "ImagenesUFC/tiendaUFC/mochilaVenum.jpg",
+    "talle"  : "- Tamaño : Único tamaño    - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Bolsos"
+},
+
+{
+    "id"     : "56",
+    "nombre" : "Bolso Venum Dark Blood",
+    "imagen" : "ImagenesUFC/tiendaUFC/bolsoVenum.jpg",
+    "talle"  : "- Tamaño : Único tamaño   - Colores : Negro-Rojo ",
+    "color"  : "$.ARS",
+    "precio" : "3999",
+    "tipo"   : "Bolsos"
+},
+
+{
+    "id"     : "57",
+    "nombre" : "Mochila UFC Dark Military Campaign",
+    "imagen" : "ImagenesUFC/tiendaUFC/bolsoUfc.jpg",
+    "talle"  : "- Tamaño : Único tamaño   - Color : Negro-Blanco ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Bolsos"
+},
+
+{
+    "id"     : "58",
+    "nombre" : "Bolso UFC Dark Military Campaign",
+    "imagen" : "ImagenesUFC/tiendaUFC/bolsoUfc2.jpg",
+    "talle"  : "- Tamaño : Único tamaño    - Colores : Negro-Blanco  ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Bolsos"
+},
+
+{
+    "id"     : "59",
+    "nombre" : "Mochila Ufc Classic Dog Style",
+    "imagen" : "ImagenesUFC/tiendaUFC/bolsoUfc3.jpg",
+    "talle"  : "- Tamaño : Único tamaño     - Colores :Negro-Blanco  ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Bolsos"
+},
+
+{
+    "id"     : "60",
+    "nombre" : "Mochila UFC Full Compact Edition",
+    "imagen" : "ImagenesUFC/tiendaUFC/mochilaSpartans.png",
+    "talle"  : "- Tamaño : Único tamaño    - Colores : Gris-Negro ",
+    "color"  : "$.ARS",
+    "precio" : "2999",
+    "tipo"   : "Bolsos"
+}
+
+
+]
