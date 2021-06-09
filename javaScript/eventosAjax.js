@@ -1,5 +1,6 @@
-// ---- Traigo tabla de Próximos eventos con AJAX---- //
+// ---- Tabla de Próximos eventos con AJAX---- //
  document.querySelector(`#botonEventos`).addEventListener(`click`, mostrarDatos);
+ 
  function mostrarDatos(){
  const xhttp = new XMLHttpRequest();
  

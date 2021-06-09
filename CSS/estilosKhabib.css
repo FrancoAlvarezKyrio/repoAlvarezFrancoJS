@@ -24,8 +24,6 @@ header, .alert {
     color: #d81717 !important;
 }
 
-
-
 /* ---------- Nav ---------- */
 nav{
     display: flex;
@@ -133,10 +131,6 @@ font-size: 25px;
 
 
 
-
-
-
-
 /* ------ Imagenes ------ */
 .imagenKhabib {
     width: 500px;
@@ -173,11 +167,6 @@ font-size: 25px;
 }
 
 
-
-
-
-
-
 /* ---- Contenedores y listas ---- */
 .divKhabib {
     display: flex;
@@ -211,11 +200,6 @@ font-size: 25px;
 }
 
 
-
-
-
-
-
 /* ----- Videos ----- */
 .videosKO {
     display: flex;
@@ -230,10 +214,6 @@ font-size: 25px;
     margin-left: 35px;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0);
 }
-
-
-
-
 
 
 /* --------- Footer ------- */

@@ -24,8 +24,6 @@ header, .alert {
     color: #d81717 !important;
 }
 
-
-
 /* ---------- Nav ---------- */
 nav{
     display: flex;
@@ -64,7 +62,7 @@ nav{
         margin-top: 10px;
         font-size: 25px;
         background-color: rgb(197, 16, 16);
-        }
+    }
 
 
 
@@ -138,11 +136,6 @@ nav{
 }
 
 
-
-
-
-
-
 /* ------ Imagenes ------ */
 .imagenJustin {
     width: 500px;
@@ -183,11 +176,6 @@ nav{
 }
 
 
-
-
-
-
-
 /* ---- Contenedores y listas ---- */
 .divKhabib {
     display: flex;
@@ -220,10 +208,6 @@ nav{
     font-weight: bold;
     color: rgb(181, 33, 33);
 }
-
-
-
-
 
 
 

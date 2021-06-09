@@ -12,6 +12,7 @@ let carrito = {}
 document.addEventListener(`DOMContentLoaded`, () => {
     fetchData()
     if (localStorage.getItem(`carrito`)){
+        // Agrego al LocalStorage 
         carrito = JSON.parse(localStorage.getItem(`carrito`))
         pintarCarrito()
     }
@@ -88,13 +89,13 @@ const pintarCarrito = () => {
     })
     items.appendChild(fragment)
     pintarFooter()
-/* -- Agrego al LocalStorage -- */
+    // Agrego al LocalStorage 
     localStorage.setItem(`carrito`, JSON.stringify(carrito))
 }
 
 /* -- Sumar y restar productos -- */
 const btnAccion = e => {
-    //Aumenta la cantidad de un mismo producto
+
     if(e.target.classList.contains(`btn-info`)) {
         const producto =  carrito[e.target.dataset.id]
         producto.cantidad ++
@@ -136,7 +137,7 @@ const pintarFooter = () => {
 
     const btnVaciar = document.getElementById(`vaciar-carrito`)
     btnVaciar.addEventListener(`click`, () =>{
-
+        // Confirmar compra
         let confirmacion = prompt("¿Está seguro que desea finalizar la compra?");
 
         if(confirmacion === "Si" || confirmacion === "si"){
